@@ -1,0 +1,125 @@
+body {
+  background-color: #212629;
+  font-family:'PT Sans', sans-serif;
+  color: white;
+  font-size: 18px;
+  line-height: 20px;
+}
+h1 {
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  float: none;
+  font-family:'PT Serif', serif;
+  color: #a2e0ff;
+  font-size: 40px;
+  line-height: 44px;
+  font-weight: 700;
+}
+h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 700;
+}
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+}
+h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+}
+h5 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+}
+h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+}
+p {
+  margin-bottom: 5px;
+  padding-top: 10px;
+  font-family:'Droid Sans', sans-serif;
+}
+.button {
+  display: inline-block;
+  padding: 4px 15px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+.top {
+  margin-top: -1px;
+  padding-top: 11px;
+  padding-bottom: 0px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+}
+.subhead {
+  display: inline-block;
+  margin-left: 10px;
+  float: none;
+  font-family:'Droid Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+.work {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.worktile {
+  margin-top: 20px;
+  background-color: black;
+  box-shadow: black 1px 1px 0px 0px;
+  opacity: 0.25;
+  -webkit-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+.worktile:hover {
+  position: static;
+  left: -10px;
+  top: -10px;
+  box-shadow: black 10px 10px 0px 0px;
+  opacity: 1;
+  -webkit-transform: translate(-10px, -10px);
+  -ms-transform: translate(-10px, -10px);
+  -o-transform: translate(-10px, -10px);
+  transform: translate(-10px, -10px);
+}
+.bottom {
+  padding-top: 20px;
+  border-top-style: solid;
+  border-top-width: 2px;
+}
+.link {
+  display: inline-block;
+  color: #a2e0ff;
+  font-weight: 400;
+  text-decoration: underline;
+}
+html.w-mod-js *[data-ix="tile-hover"] {
+  opacity: 0.25;
+}
+@media (max-width: 991px) {
+}
+@media (max-width: 767px) {
+}
+@media (max-width: 479px) {
+}
